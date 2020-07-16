@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 2020_07_09_205412) do
     t.string "name"
     t.date "date"
     t.integer "budget"
-    t.boolean "private"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

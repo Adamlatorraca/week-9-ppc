@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 Party.create([
-    { name: 'Moroccan Christmas', date:'2019-12-16', budget:50, private:false },
-    { name: 'Goodbye Toby', date:'2020-7-20', budget:200, private:false },
-    { name: 'Nutcracker Christmas', date: '2020-12-15', budget:25, private:true}
+    { name: 'Moroccan Christmas', date:'2019-12-16', budget:50 },
+    { name: 'Goodbye Toby', date:'2020-7-20', budget:200 },
+    { name: 'Nutcracker Christmas', date: '2020-12-15', budget:25 }
 ])

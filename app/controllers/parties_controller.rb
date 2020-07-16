@@ -4,7 +4,7 @@ class PartiesController < ApplicationController
     end
 
     def new
-        @party = Party.new(name: 'Halloween')
+        @party = Party.new
     end
 
     def create
